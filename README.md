@@ -23,11 +23,11 @@
 创建自定义图标预览图像，可以直接复制粘贴到GitHub问题（或其他任何地方）中 。
 [预览生成器](https://petershaggynoble.github.io/MDI-Sandbox/preview/)
 
-#### Automated Preview Generator
-To save you some work, there's also an automated preview generator available at [mdi.houseofdesign.ie/tools/preview/](http://mdi.houseofdesign.ie/tools/preview/). Use the `icon` querystring parameter to provide an icon name from [the main library](https://petershaggynoble.github.io/MDI-Sandbox/), [Material Icons Extended](https://petershaggynoble.github.io/MDI-Sandbox/extended/), the [other Google icons](https://petershaggynoble.github.io/MDI-Sandbox/other/) or the [stock Google icons](https://petershaggynoble.github.io/MDI-Sandbox/stock/) and a preview will be generated that you can link to directly. You can also use the optional `action` parameter to provide the name of an icon from the main library to be shown in the bottom right corner.
-> **Example:** [/?icon=vector-square&action=link](http://mdi.houseofdesign.ie/tools/preview/?icon=vector-square&action=link)
+#### 自动预览生成器
+为了节省您的工作，在[这里](http://mdi.houseofdesign.ie/tools/preview/)有一个仅从链接获取信息的预览网页。使用`icon` 参数从 [main library](https://mcwither.github.io/MDI-Sandbox/), [Material Icons Extended](https://mcwither.github.io/MDI-Sandbox/extended/), 和 [其他Google图标](https://mcwither.github.io/MDI-Sandbox/other/) 或者 [stock Google icons](https://mcwither.github.io/MDI-Sandbox/stock/) 和可直接链接到的预览。还有 `action` 参数提供要显示在右下角的动作图标的名称。
+> **示例:** [/?icon=vector-square&action=link](http://mdi.houseofdesign.ie/tools/preview/?icon=vector-square&action=link)
 
-Alternatively, instead of using the `icon` parameter to provide the name of an existing icon, you can provide a custom path and name using the `path` & `name` parameters.
+或者，可以使用和`path` `name`参数来提供自定义路径和名称，而不是使用`icon`参数来提供现有图标的名称。
 > **Example:** [/?name=vector-square&action=download&path=M2,2...Z](http://mdi.houseofdesign.ie/tools/preview/?name=vector-square&action=download&path=M2,2H8V4H16V2H22V8H20V16H22V22H16V20H8V22H2V16H4V8H2V2M16,8V6H8V8H6V16H8V18H16V16H18V8H16M4,4V6H6V4H4M18,4V6H20V4H18M4,18V20H6V18H4M18,18V20H20V18H18Z)
 
 If necessary, you can override the auto-detected preview type using the `type` parameter. The values this parameter can accept can be found in the table below along with their corresponding colours & labels.
