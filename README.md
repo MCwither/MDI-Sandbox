@@ -1,27 +1,27 @@
-# Material Design Icons Sandbox
-## Important Notes
-- This is a side-project to the main [Material Design Icons](https://materialdesignicons.com/) project. To request a new icon, suggest an alias or make a contribution to the icon pack, please [create an issue](https://github.com/Templarian/MaterialDesign/issues) in the main repository.
-- One of the main purposes of this Sandbox is for me to play around with ECMAScript 6+ features I don't normally get to work with. As such I can only guarantee that the website will work in the latest version of Google Chrome.
+# Material Design图标沙盒
+## 重要注意
+- 这是[MD图标](https://materialdesignicons.com/)主项目的附带项目。若要请求新图标、建议一个别名或对图标包作出贡献，请在主存储库中[创建问题](https://github.com/Templarian/MaterialDesign/issues)。
+- 这个沙盒的一个主要目的是让我使用通常不使用的ECMAScript 6+功能。因此，我只能保证，该网站将在最新版本的谷歌Chrome工作。
+## 特点和工具
 
-## Features & Tools
+### 图标库
 
-### Icon Library
+这个项目的主要部分；MDI的一个加厚的“备忘单”。功能包括：
+- 建立自己的图标库。
+- 将自定义图标上传到收藏库中。
+- 按关键字、类别或贡献者筛选图标。
+- 以各种格式下载库、筛选的图标或单个图标。
+- 将SVG标签、路径数据和代码点等图标信息直接复制到剪贴板。
+- 编辑图标并以多种格式下载。
+- 看看哪些图标是[收录了的](https://mcwither.github.io/MDI-Sandbox/?section=new)、[更新过的](https://mcwither.github.io/MDI-Sandbox/?section=updated)、[重命名过的](https://mcwither.github.io/MDI-Sandbox/?section=renamed)或[移除了的](https://mcwither.github.io/MDI-Sandbox/?section=removed)在最新版中。
+- 查看即将收录的图标，在下一个图标版本要添加的[图标](https://mcwither.github.io/MDI-Sandbox/?section=soon)。
+- 查看库中[已过期的图标](https://mcwither.github.io/MDI-Sandbox/?section=retired)。
 
-The main section of this project; a jacked up "cheatsheet" for MDI. Features include:
-- Build your own library of icons.
-- Upload custom icons to your library.
-- Filter icons by keywords, categories and/or contributors.
-- Download your library, filtered icons or individual icons in a variety of formats.
-- Copy icon info such as SVG markup, path data and codepoints directly to your clipboard.
-- Edit icons and download them in a variety of formats.
-- See which icons were [added](https://petershaggynoble.github.io/MDI-Sandbox/?section=new), [updated](https://petershaggynoble.github.io/MDI-Sandbox/?section=updated), [renamed](https://petershaggynoble.github.io/MDI-Sandbox/?section=renamed) or [removed](https://petershaggynoble.github.io/MDI-Sandbox/?section=removed) in the latest release.
-- See which icons will be [available in the next release](https://petershaggynoble.github.io/MDI-Sandbox/?section=soon).
-- Access [icons which have since been removed](https://petershaggynoble.github.io/MDI-Sandbox/?section=retired) from the MDI library.
-
-### Preview Generator
+### 预览生成器
 ![](https://petershaggynoble.github.io/MDI-Sandbox/img/readme/previews.png)
 
-Create customised icon preview images which can be copied & pasted directly into GitHub issues (or anywhere else) at [petershaggynoble.github.io/MDI-Sandbox/preview/](https://petershaggynoble.github.io/MDI-Sandbox/preview/).
+创建自定义图标预览图像，可以直接复制粘贴到GitHub问题（或其他任何地方）中 。
+[预览生成器](https://petershaggynoble.github.io/MDI-Sandbox/preview/)
 
 #### Automated Preview Generator
 To save you some work, there's also an automated preview generator available at [mdi.houseofdesign.ie/tools/preview/](http://mdi.houseofdesign.ie/tools/preview/). Use the `icon` querystring parameter to provide an icon name from [the main library](https://petershaggynoble.github.io/MDI-Sandbox/), [Material Icons Extended](https://petershaggynoble.github.io/MDI-Sandbox/extended/), the [other Google icons](https://petershaggynoble.github.io/MDI-Sandbox/other/) or the [stock Google icons](https://petershaggynoble.github.io/MDI-Sandbox/stock/) and a preview will be generated that you can link to directly. You can also use the optional `action` parameter to provide the name of an icon from the main library to be shown in the bottom right corner.
