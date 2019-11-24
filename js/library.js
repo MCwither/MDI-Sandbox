@@ -439,7 +439,7 @@ utf8,<?xml version="1.0" encoding="UTF-8"?><Canvas xmlns="http://schemas.microso
 utf8,<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:width="24dp" android:viewportWidth="24" android:viewportHeight="24"><path android:fillColor="#000" android:pathData="${this.data}"/></vector>`};
 if(page.storage){this.actions.library.classList.toggle(`remove`,library=!!favourites.articles[this.name]&&!!parseInt(favourites.list[this.name]));
 this.actions.library.classList.toggle(`delete`,custom=!!favourites.articles[this.name]&&!parseInt(favourites.list[this.name]));
-this.actions.library.lastChild.nodeValue=`${custom?`删除从`:library?`删除从`:`添加到`} 收藏`;
+this.actions.library.lastChild.nodeValue=`${custom?`Delete from`:library?`删除从`:`添加到`} 收藏`;
 }if(this.codepoint){this.actions.icon.dataset.copy=String.fromCharCode(`0x${this.codepoint}`);
 }this.actions.url.dataset.copy=`${page.address}?icon=${name}`;
 if(page.size){this.heading.classList.add(`oz`);
@@ -471,7 +471,7 @@ this.link.dataset.icons=`link`;
 this.title.append(T(`Copy Link`));
 this.link.append(this.title);
 this.error.classList.add(`fwm`);
-this.error.append(T(`这里没有可用的图标。`));
+this.error.append(T(`No icons available in this section.`));
 this.item.classList.add(`cp`,`oh`);
 this.item.tabIndex=-1;
 this.svg.classList.add(`dib`,`pen`,`vam`);
